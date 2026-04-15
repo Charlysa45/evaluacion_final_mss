@@ -11,7 +11,8 @@ CREATE TABLE IF NOT EXISTS artistas (
 );
 
 INSERT INTO artistas (nombre, genero, ultimo_exito, popularidad) VALUES
-('Karol G', 'Reguetón', 'Provenza', 99),
+('BTS', 'K-Pop', 'SWIM', 99),
+('Karol G', 'Reguetón', 'Provenza', 98),
 ('Yeison Jiménez', 'Popular', 'Vete', 96),
 ('Feid', 'Reguetón', 'Luna', 98),
 ('Luis Alberto Posada', 'Popular', 'El precio de tu error', 93),
@@ -19,5 +20,4 @@ INSERT INTO artistas (nombre, genero, ultimo_exito, popularidad) VALUES
 ('Arelys Henao', 'Popular', 'Lo pasado pisado', 91),
 ('Ryan Castro', 'Reguetón', 'Quema', 89),
 ('Jhonny Rivera', 'Popular', 'Te extraño', 88),
-('Blessd', 'Reguetón', 'Si Sabe Ferxxo', 95),
-('Paola Jara', 'Popular', 'Murió el Amor', 87);
+('Blessd', 'Reguetón', 'Si Sabe Ferxxo', 95);
