@@ -1,7 +1,25 @@
-# Evaluación final unidad 3 - v1.0.0
+# Evaluación final unidad 3 - v1.1.0
 ## Uniagustiniana 2026
 **Estado:** Stable
 **Versionamiento:** SemVer 2.0.0
+
+---
+
+# Changelog
+
+## [1.1.0] - 2026-04-14
+### Added
+- Cierre explícito del cursor (`cursor.close()`) en el bloque `finally` de `leer_vista` para una mejor gestión de recursos.
+- Variables de entorno `DB_MAX_INTENTOS` y `DB_ESPERA_SEG` para configurar los reintentos de conexión a la base de datos sin necesidad de recompilar la imagen.
+
+### Fixed
+- Corregido error de sintaxis en `db/init.sql`: el último registro del `INSERT` tenía una coma en lugar de punto y coma.
+
+### Changed
+- Lista de artistas y color de fondo de la aplicación actualizados.
+- Actualizada la versión de la aplicación a `1.1.0` en el objeto `FastAPI`.
+
+---
 
 Este repositorio contiene un laboratorio práctico para el despliegue de una infraestructura distribuida utilizando contenedores. Se implementa un patrón Modelo-Vista-Controlador (MVC) para gestionar un ranking de artistas musicales.
 

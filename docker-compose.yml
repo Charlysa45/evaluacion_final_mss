@@ -6,6 +6,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: uniagustiniana_pass
       MYSQL_DATABASE: academia_agustiniana_db
+      DB_MAX_INTENTOS: "10"
+      DB_ESPERA_SEG: "3"
     volumes:
       - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
     networks:
