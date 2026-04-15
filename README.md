@@ -16,6 +16,7 @@
 - Corregido error de sintaxis en `db/init.sql`: el último registro del `INSERT` tenía una coma en lugar de punto y coma.
 
 ### Changed
+- Lista de artistas y color de fondo de la aplicación actualizados.
 - Actualizada la versión de la aplicación a `1.1.0` en el objeto `FastAPI`.
 
 ---
